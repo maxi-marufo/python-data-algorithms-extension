@@ -3,7 +3,7 @@ def binary_search(input_array, value):
     mid = length/2
     new_array = input_array
     idx = 0
-    while (mid !=0):
+    while (mid != 0):
         if new_array[mid] < value:
             idx += (mid+1)
             new_array = new_array[(mid+1):]

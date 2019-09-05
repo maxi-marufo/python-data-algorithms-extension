@@ -1,5 +1,5 @@
 def shell_sort(input_list):
-    
+
     gap = len(input_list) // 2
     while gap > 0:
 
